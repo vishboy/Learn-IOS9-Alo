@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBEA57A41C737E5E00028588 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEA57A31C737E5E00028588 /* AppDelegate.swift */; };
+		FBEA57A61C737E5E00028588 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEA57A51C737E5E00028588 /* ViewController.swift */; };
+		FBEA57A91C737E5E00028588 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBEA57A71C737E5E00028588 /* Main.storyboard */; };
+		FBEA57AB1C737E5E00028588 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBEA57AA1C737E5E00028588 /* Assets.xcassets */; };
+		FBEA57AE1C737E5E00028588 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBEA57AC1C737E5E00028588 /* LaunchScreen.storyboard */; };
+		FBEA57B91C737E5E00028588 /* aloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEA57B81C737E5E00028588 /* aloTests.swift */; };
+		FBEA57C41C737E5E00028588 /* aloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEA57C31C737E5E00028588 /* aloUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FBEA57B51C737E5E00028588 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBEA57981C737E5E00028588 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBEA579F1C737E5E00028588;
+			remoteInfo = alo;
+		};
+		FBEA57C01C737E5E00028588 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBEA57981C737E5E00028588 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBEA579F1C737E5E00028588;
+			remoteInfo = alo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FBEA57A01C737E5E00028588 /* alo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = alo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBEA57A31C737E5E00028588 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FBEA57A51C737E5E00028588 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FBEA57A81C737E5E00028588 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBEA57AA1C737E5E00028588 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBEA57AD1C737E5E00028588 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FBEA57AF1C737E5E00028588 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBEA57B41C737E5E00028588 /* aloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBEA57B81C737E5E00028588 /* aloTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aloTests.swift; sourceTree = "<group>"; };
+		FBEA57BA1C737E5E00028588 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBEA57BF1C737E5E00028588 /* aloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aloUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBEA57C31C737E5E00028588 /* aloUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aloUITests.swift; sourceTree = "<group>"; };
+		FBEA57C51C737E5E00028588 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBEA579D1C737E5E00028588 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBEA57B11C737E5E00028588 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBEA57BC1C737E5E00028588 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBEA57971C737E5E00028588 = {
+			isa = PBXGroup;
+			children = (
+				FBEA57A21C737E5E00028588 /* alo */,
+				FBEA57B71C737E5E00028588 /* aloTests */,
+				FBEA57C21C737E5E00028588 /* aloUITests */,
+				FBEA57A11C737E5E00028588 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBEA57A11C737E5E00028588 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBEA57A01C737E5E00028588 /* alo.app */,
+				FBEA57B41C737E5E00028588 /* aloTests.xctest */,
+				FBEA57BF1C737E5E00028588 /* aloUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBEA57A21C737E5E00028588 /* alo */ = {
+			isa = PBXGroup;
+			children = (
+				FBEA57A31C737E5E00028588 /* AppDelegate.swift */,
+				FBEA57A51C737E5E00028588 /* ViewController.swift */,
+				FBEA57A71C737E5E00028588 /* Main.storyboard */,
+				FBEA57AA1C737E5E00028588 /* Assets.xcassets */,
+				FBEA57AC1C737E5E00028588 /* LaunchScreen.storyboard */,
+				FBEA57AF1C737E5E00028588 /* Info.plist */,
+			);
+			path = alo;
+			sourceTree = "<group>";
+		};
+		FBEA57B71C737E5E00028588 /* aloTests */ = {
+			isa = PBXGroup;
+			children = (
+				FBEA57B81C737E5E00028588 /* aloTests.swift */,
+				FBEA57BA1C737E5E00028588 /* Info.plist */,
+			);
+			path = aloTests;
+			sourceTree = "<group>";
+		};
+		FBEA57C21C737E5E00028588 /* aloUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FBEA57C31C737E5E00028588 /* aloUITests.swift */,
+				FBEA57C51C737E5E00028588 /* Info.plist */,
+			);
+			path = aloUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBEA579F1C737E5E00028588 /* alo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBEA57C81C737E5E00028588 /* Build configuration list for PBXNativeTarget "alo" */;
+			buildPhases = (
+				FBEA579C1C737E5E00028588 /* Sources */,
+				FBEA579D1C737E5E00028588 /* Frameworks */,
+				FBEA579E1C737E5E00028588 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = alo;
+			productName = alo;
+			productReference = FBEA57A01C737E5E00028588 /* alo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FBEA57B31C737E5E00028588 /* aloTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBEA57CB1C737E5E00028588 /* Build configuration list for PBXNativeTarget "aloTests" */;
+			buildPhases = (
+				FBEA57B01C737E5E00028588 /* Sources */,
+				FBEA57B11C737E5E00028588 /* Frameworks */,
+				FBEA57B21C737E5E00028588 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBEA57B61C737E5E00028588 /* PBXTargetDependency */,
+			);
+			name = aloTests;
+			productName = aloTests;
+			productReference = FBEA57B41C737E5E00028588 /* aloTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FBEA57BE1C737E5E00028588 /* aloUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBEA57CE1C737E5E00028588 /* Build configuration list for PBXNativeTarget "aloUITests" */;
+			buildPhases = (
+				FBEA57BB1C737E5E00028588 /* Sources */,
+				FBEA57BC1C737E5E00028588 /* Frameworks */,
+				FBEA57BD1C737E5E00028588 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBEA57C11C737E5E00028588 /* PBXTargetDependency */,
+			);
+			name = aloUITests;
+			productName = aloUITests;
+			productReference = FBEA57BF1C737E5E00028588 /* aloUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBEA57981C737E5E00028588 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Vishal Boyro";
+				TargetAttributes = {
+					FBEA579F1C737E5E00028588 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					FBEA57B31C737E5E00028588 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = FBEA579F1C737E5E00028588;
+					};
+					FBEA57BE1C737E5E00028588 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = FBEA579F1C737E5E00028588;
+					};
+				};
+			};
+			buildConfigurationList = FBEA579B1C737E5E00028588 /* Build configuration list for PBXProject "alo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBEA57971C737E5E00028588;
+			productRefGroup = FBEA57A11C737E5E00028588 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBEA579F1C737E5E00028588 /* alo */,
+				FBEA57B31C737E5E00028588 /* aloTests */,
+				FBEA57BE1C737E5E00028588 /* aloUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBEA579E1C737E5E00028588 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBEA57AE1C737E5E00028588 /* LaunchScreen.storyboard in Resources */,
+				FBEA57AB1C737E5E00028588 /* Assets.xcassets in Resources */,
+				FBEA57A91C737E5E00028588 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBEA57B21C737E5E00028588 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBEA57BD1C737E5E00028588 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBEA579C1C737E5E00028588 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBEA57A61C737E5E00028588 /* ViewController.swift in Sources */,
+				FBEA57A41C737E5E00028588 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBEA57B01C737E5E00028588 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBEA57B91C737E5E00028588 /* aloTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBEA57BB1C737E5E00028588 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBEA57C41C737E5E00028588 /* aloUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBEA57B61C737E5E00028588 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBEA579F1C737E5E00028588 /* alo */;
+			targetProxy = FBEA57B51C737E5E00028588 /* PBXContainerItemProxy */;
+		};
+		FBEA57C11C737E5E00028588 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBEA579F1C737E5E00028588 /* alo */;
+			targetProxy = FBEA57C01C737E5E00028588 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FBEA57A71C737E5E00028588 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBEA57A81C737E5E00028588 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FBEA57AC1C737E5E00028588 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBEA57AD1C737E5E00028588 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBEA57C61C737E5E00028588 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBEA57C71C737E5E00028588 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBEA57C91C737E5E00028588 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = alo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.boyro.vishal.alo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FBEA57CA1C737E5E00028588 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = alo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.boyro.vishal.alo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FBEA57CC1C737E5E00028588 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = aloTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.boyro.vishal.aloTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/alo.app/alo";
+			};
+			name = Debug;
+		};
+		FBEA57CD1C737E5E00028588 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = aloTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.boyro.vishal.aloTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/alo.app/alo";
+			};
+			name = Release;
+		};
+		FBEA57CF1C737E5E00028588 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = aloUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.boyro.vishal.aloUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = alo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FBEA57D01C737E5E00028588 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = aloUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.boyro.vishal.aloUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = alo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBEA579B1C737E5E00028588 /* Build configuration list for PBXProject "alo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBEA57C61C737E5E00028588 /* Debug */,
+				FBEA57C71C737E5E00028588 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBEA57C81C737E5E00028588 /* Build configuration list for PBXNativeTarget "alo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBEA57C91C737E5E00028588 /* Debug */,
+				FBEA57CA1C737E5E00028588 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FBEA57CB1C737E5E00028588 /* Build configuration list for PBXNativeTarget "aloTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBEA57CC1C737E5E00028588 /* Debug */,
+				FBEA57CD1C737E5E00028588 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FBEA57CE1C737E5E00028588 /* Build configuration list for PBXNativeTarget "aloUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBEA57CF1C737E5E00028588 /* Debug */,
+				FBEA57D01C737E5E00028588 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBEA57981C737E5E00028588 /* Project object */;
+}
